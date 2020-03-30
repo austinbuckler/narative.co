@@ -305,7 +305,7 @@ function AboutTeam() {
         {isDesktop ? (
           <Sticky
             cover
-            height="1600px"
+            height="2222px"
             render={({ progress: prog }: StickyState) => {
               return (
                 <Section narrow>

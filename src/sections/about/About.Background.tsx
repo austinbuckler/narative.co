@@ -111,6 +111,7 @@ const CompanyLogos = styled.div`
   margin-top: 80px;
   height: 31px;
   display: flex;
+  align-items: center;
 
   svg {
     &:not(:last-child) {
