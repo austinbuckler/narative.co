@@ -29,10 +29,11 @@ function handleAccessibilityFocus() {
 
 /**
  * handleFadeInAndOutOnScroll()
- * Attaches a scroll event listener to the window and will query for each
- * How to use:
- * <Element data-scroll-fade{true} />
+ * Attaches a scroll event listener to the window and will query for each Element
+ * that has the desired data attribute.
  *
+ * How to use:
+ * <Element data-scroll-fade={true} />
  */
 function handleFadeInAndOutOnScroll() {
   const clamp = value => Math.min(Math.max(value, 0), 1)
