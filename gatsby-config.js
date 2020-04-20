@@ -69,12 +69,6 @@ exports.plugins = [
       trackingId: 'UA-118232427-1',
     },
   },
-  {
-    resolve: `gatsby-plugin-facebook-pixel`,
-    options: {
-      pixelId: '2183075648607369',
-    },
-  },
 
   // These are our local plugins that can be found within ./plugins
   'gatsby-transformer-enhance-contentful',
