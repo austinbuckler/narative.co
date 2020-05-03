@@ -56,7 +56,7 @@ function ContactForm({ baseDelay }: { baseDelay: number }) {
     const { company, details, email, name } = values
 
     const method = 'post'
-    const endpoint = '/contact/proposal'
+    const endpoint = '/contact'
     const data = {
       company,
       email,
