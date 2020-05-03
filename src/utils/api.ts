@@ -6,8 +6,8 @@
 
 const baseUrl =
   process.env.NODE_ENV === 'production'
-    ? 'https://narative-pastoral.herokuapp.com/api'
-    : 'http://localhost:8080/api'
+    ? 'https://narative-list.appspot.com/api/narative'
+    : 'http://localhost:8080/api/narative/'
 
 export function buildUrl(url) {
   return baseUrl + url
