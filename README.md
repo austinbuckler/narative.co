@@ -64,4 +64,4 @@ To deploy to narative.co merge your code into master.
 
 ## License
 
-BSD 3-Clause, see the [LICENSE](./LICENSE) file.
+See the [LICENSE](./LICENSE) file.
